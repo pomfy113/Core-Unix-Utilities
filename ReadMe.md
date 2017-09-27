@@ -79,55 +79,55 @@ Challenges within each section are meant to be solved in order.
 ### Files
 
 1.  Navigate to the directory `Animals`
-    `cd Animals`
+    - `cd Animals`
 1.  Print the contents of the file `Cats.txt`
-    `cat cats.txt`
+    - `cat cats.txt`
 1.  Print the contents of both files `Cats.txt` and `Dogs.txt`
-    `cat cats.txt dogs.txt`
+    - `cat cats.txt dogs.txt`
 1.  Count the words in the file `Cats.txt`
-    `wc -w cats.txt`
+    - `wc -w cats.txt`
 1.  Count the words in all files with the extension `.txt`
-    `wc -w *.txt`
+    - `wc -w *.txt`
 1.  Copy the file `Dogs.txt` to a new file `BabyDogs.txt`
-    `cp Dogs.txt BabyDogs.txt`
+    - `cp Dogs.txt BabyDogs.txt`
 1.  Rename the file `BabyDogs.txt` to `Puppies.txt`
-    `mv BabyDogs.txt Puppies.txt`
+    - `mv BabyDogs.txt Puppies.txt`
 1.  Make a new directory named `Shelter` inside `Animals`
-    `mkdir Shelter`
+    - `mkdir Shelter`
 1.  Move the file `Puppies.txt` into the directory `Shelter`
-    `mv Puppies.txt Shelter/Puppies.txt`
+    - `mv Puppies.txt Shelter/Puppies.txt`
 1.  Copy the file `Cats.txt` to `Kittens.txt` inside `Shelter`
-    `cp Cats.txt Shelter/Kittens.txt`
+    - `cp Cats.txt Shelter/Kittens.txt`
 1.  List the files within the directory `Shelter`
-    `ls Shelter`w
+    - `ls Shelter`w
 1.  Count the words in all `.txt` files inside `Shelter`
-    `wc -w Shelter/*.txt`
+    - `wc -w Shelter/*.txt`
 1.  Try to remove the directory `Shelter` (this should fail)
-    `rmdir Shelter`
+    - `rmdir Shelter`
 1.  Remove all `.txt` files inside `Shelter`
-    `rm Shelter/*.txt`
+    - `rm Shelter/*.txt`
 1.  Remove the directory `Shelter` (this should succeed)
-    `rmdir Shelter`
+    - `rmdir Shelter`
 1.  Now cry because you just deleted those poor tiny animals
-    `;_ ;`
+    - `;_ ;`
 
 ### Permissions
 
 1.  Print out your user name
-    `whoami`
+    - `whoami`
 1.  List the permissions (and metadata) of all `.txt` files
-    `ls -l`
+    - `ls -l`
 1.  Give all users write permission on the file `Cats.txt`
-    `chmod 222 Cats.txt`
+    - `chmod 222 Cats.txt`
 1.  List the permissions (and metadata) of the file `Cats.txt`
-    `ls -l Cats.txt`
+    - `ls -l Cats.txt`
 1.  Change the owner of the file `Cats.txt` to another user
-    `chown user cats.txt`
+    - `chown user cats.txt`
 1.  Now list the permissions (and owner) of the file `Cats.txt`
-    `ls -l Cats.txt`
+    - `ls -l Cats.txt`
 1.  Try to change the owner of the file `Cats.txt` back to yourself
-    `chown [myusername] cats.txt`
+    - `chown [myusername] cats.txt`
 1.  Invoke the super-user to make the previous command succeed
-    `sudo chown [myusername] cats.txt`
+    - `sudo chown [myusername] cats.txt`
 1.  List the permissions (and owner) of the file `Cats.txt` again
-    `ls -l Cats.txt`
+    - `ls -l Cats.txt`
