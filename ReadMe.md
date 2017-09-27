@@ -99,7 +99,7 @@ Challenges within each section are meant to be solved in order.
 1.  Copy the file `Cats.txt` to `Kittens.txt` inside `Shelter`
     `cp Cats.txt Shelter/Kittens.txt`
 1.  List the files within the directory `Shelter`
-    `ls Shelter`
+    `ls Shelter`w
 1.  Count the words in all `.txt` files inside `Shelter`
     `wc -w Shelter/*.txt`
 1.  Try to remove the directory `Shelter` (this should fail)
@@ -114,11 +114,20 @@ Challenges within each section are meant to be solved in order.
 ### Permissions
 
 1.  Print out your user name
+    `whoami`
 1.  List the permissions (and metadata) of all `.txt` files
+    `ls -l`
 1.  Give all users write permission on the file `Cats.txt`
+    `chmod 222 Cats.txt`
 1.  List the permissions (and metadata) of the file `Cats.txt`
+    `ls -l Cats.txt`
 1.  Change the owner of the file `Cats.txt` to another user
+    `chown user cats.txt`
 1.  Now list the permissions (and owner) of the file `Cats.txt`
+    `ls -l Cats.txt`
 1.  Try to change the owner of the file `Cats.txt` back to yourself
+    `chown [myusername] cats.txt`
 1.  Invoke the super-user to make the previous command succeed
+    `sudo chown [myusername] cats.txt`
 1.  List the permissions (and owner) of the file `Cats.txt` again
+    `ls -l Cats.txt`
